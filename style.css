@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*---some common css style---*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+}
+img{
+    max-width: 100%;
+}
+
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+
+/*---navbar item css---*/
+
+.nav-banner-items{
+    max-width: 1140px;
+    margin:0 auto;
+}
+.logo{
+    padding-top: 20px;
+}
+.logo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    display:flex;
+    gap:48px;
+}
+.navbar ul{
+    display:flex;
+    gap:48px;
+    padding-top:35px;
+}
+.cart{
+    gap:10px;
+    padding-top: 35px;
+    display:flex;
+}
+
+#home{
+    color:#252432;
+}
+.Two-item{
+    color:#8987A1;
+}
+
+@media screen and (max-width:576px) {
+    .navbar ul{
+        display:none;
+    }
+    .nav-banner-items{
+        padding:0 10px;
+    }
+}
