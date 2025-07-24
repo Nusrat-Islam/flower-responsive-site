@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
@@ -23,8 +22,7 @@ img {
     --primary-color: (black);
     --secondary-color: rgba(0, 0, 0, 0.5);
     --third-color: rgba(233, 90, 8, 1);
-    --primary-font-family: Noto-Serif;
-    --secondary-font-family: Inter;
+
 }
 
 /*---navbar item css---*/
@@ -49,15 +47,16 @@ img {
     gap: 48px;
 }
 
-.navbar ul  {
+.navbar ul {
     display: flex;
     gap: 48px;
     padding-top: 35px;
-    font-family: var(--secondary-font-family);
+    font-family: inter;
     list-style: none;
-    
+
 }
-.navbar ul li a{
+
+.navbar ul li a {
     text-decoration: none;
 }
 
@@ -68,7 +67,7 @@ img {
 }
 
 .dollar {
-    font-family: var(--secondary-font-family);
+    font-family: inter;
 }
 
 #home {
@@ -94,7 +93,7 @@ img {
 
 .banner-title {
     font-weight: 700px;
-    font-family: var(--primary-font-family);
+    font-family: noto-serif;
     color: var(--primary-color);
     font-size: 4rem;
 }
@@ -104,7 +103,7 @@ img {
 }
 
 .banner-para {
-    font-family: var(--secondary-font-family);
+    font-family: inter;
     color: var(--secondary-color);
     font-size: 1.37rem;
 }
@@ -127,7 +126,7 @@ main {
 
 .plant {
     font-weight: 700px;
-    font-family: var(--primary-font-family);
+    font-family: inter;
     color: var(--primary-color);
     font-size: 3rem;
 }
@@ -137,91 +136,148 @@ main {
 }
 
 .beauty {
-    font-family: var(--secondary-font-family);
+    font-family: inter;
     color: var(--secondary-color);
     font-size: 1.37rem;
     max-width: 888px;
     text-align: center;
     margin-top: 16px;
 }
-.total-cart{
+
+.total-cart {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-}
-.cart{
-    max-width: 270px;
-    margin-top:49px;
-    gap:20px;
-    display:flex;
-    flex-direction: column;
-    
+    grid-template-columns: repeat(4, 1fr);
 }
 
-.lilly{
-     font-family: var(--secondary-font-family);
-    color:#111111;
+.cart {
+    max-width: 270px;
+    margin-top: 49px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.lilly {
+    font-family: inter;
+    color: #111111;
     font-size: 1.37rem;
     font-weight: 500px;
-    
+
 }
-.amount{
-        font-family: var(--secondary-font-family);
-    color:#111111;
+
+.amount {
+    font-family: inter;
+    color: #111111;
     font-size: 1.37rem;
-    font-weight:700px;
+    font-weight: 700px;
     margin-top: 15px;
 }
-.price{
+
+.price {
     text-align: center;
-    margin:30px 0;
+    margin: 30px 0;
 }
-.primary-btn{
-    background-color:var(--third-color);
-    color:white;
+
+.primary-btn {
+    background-color: var(--third-color);
+    color: white;
     font-weight: 600px;
-    font-family:var(--secondary-font-family);
-    padding:19px 0;
-    border:none;
+    font-family: inter;
+    padding: 19px 0;
+    border: none;
 }
 
 /*-----Plants Lover Section Css start-----*/
- .plants-lover{
-    display:flex;
+.plants-lover {
+    display: flex;
     margin-top: 210px;
-    gap:60px;
-    
- }
- .badge{
-    max-height:280px;
-    max-width:280px;
-   position:absolute;
-   right:560px;
-   transform: translateY(-128px);
- }
- .flower-title{
-    font-family: var(--primary-font-family);
-    font-weight:700px;
-    font-size:3.1rem;
-    color:var(--primary-color);
+    gap: 60px;
+
+}
+
+.badge {
+    max-height: 280px;
+    max-width: 280px;
+    position: absolute;
+    right: 560px;
+    transform: translateY(-128px);
+}
+
+.flower-title {
+    font-family: noto-serif;
+    font-weight: 700px;
+    font-size: 3.1rem;
+    color: var(--primary-color);
     margin-top: 38px;
- }
- .flower-description{
+}
+
+.flower-description {
     max-width: 50%;
- }
-.flower-line{
-    font-family: var(--secondary-font-family);
-    font-size:1.37rem ;
-    color:var(--secondary-color);
-    padding-left:35px;
-    margin-top:20px;
+}
+
+.flower-line {
+    font-family: inter;
+    font-size: 1.37rem;
+    color: var(--secondary-color);
+    padding-left: 35px;
+    margin-top: 20px;
     max-width: 540px;
 }
+  /*-----Latest deal Section CSS part start-----*/
+
+  .Various-plant{
+    display:flex;
+    margin-top: 115px;
+    gap:28px;
+  }
+  .image-container{
+    margin-bottom:20px;
+  }
+.image-text {
+    position: absolute;
+    transform: translateY(-130px);
+    padding-left: 89px;
+    color: white;
+    font-family: noto-serif;
+    font-size: 1.2rem;
+    font-weight: 700px;
+}
+
+.image-text a {
+    font-family:Noto-serif;
+    color: white;
+    padding-left: 35px;
+    font-weight: 700px;
+}
+
+.image-deal {
+    filter: brightness(55%);
+    border-radius: 10px;
+}
+
+.image-text-two{
+      position: absolute;
+    transform: translateY(-230px);
+    padding-left: 200px;
+    color: white;
+    font-family: noto-serif;
+    font-size: 3.1rem;
+    font-weight: 700px;
+}
+.image-text-two a {
+    font-family: noto-serif;
+    color: white;
+    padding-left: 80px;
+    font-weight: 700px;
+}
+
 @media screen and (max-width:576px) {
 
     .navbar ul {
         display: none;
     }
-     
+
     .logo-item {
         padding: 0 15px;
     }
@@ -243,25 +299,32 @@ main {
         margin-top: 20px;
     }
 
-    .our-plants{
+    .our-plants {
         align-items: center;
     }
-    .beauty,.store,.flower-description{
-        padding:0 15px;
+
+    .beauty,
+    .store,
+    .flower-description {
+        padding: 0 15px;
     }
-    .total-cart{
-        grid-template-columns: repeat(2,1fr);
-         padding:0 15px ;   
-        gap:10px;
+
+    .total-cart {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 15px;
+        gap: 10px;
     }
-    .plants-lover{
+
+    .plants-lover {
         flex-direction: column;
         margin-top: 45px;
     }
-    .badge{
-        display:none;
+
+    .badge {
+        display: none;
     }
-    .flower-description{
-        max-width:100%;
+
+    .flower-description {
+        max-width: 100%;
     }
 }
