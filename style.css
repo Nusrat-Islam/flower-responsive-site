@@ -108,7 +108,7 @@ ul li a {
 .banner-para {
     font-family: var(--secondary-font-family);
     color: var(--secondary-color);
-    font-size: 1.4rem;
+    font-size: 1.37rem;
 }
 
 .flower-img {
@@ -141,16 +141,54 @@ main {
 .beauty {
     font-family: var(--secondary-font-family);
     color: var(--secondary-color);
-    font-size: 1.4rem;
+    font-size: 1.37rem;
     max-width: 888px;
     text-align: center;
+    margin-top: 16px;
+}
+.total-cart{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.cart{
+    max-width: 270px;
+    margin-top:49px;
+    gap:20px;
+}
+
+.lilly{
+     font-family: var(--secondary-font-family);
+    color:#111111;
+    font-size: 1.37rem;
+    font-weight: 500px;
+    
+}
+.amount{
+        font-family: var(--secondary-font-family);
+    color:#111111;
+    font-size: 1.37rem;
+    font-weight:700px;
+    margin-top: 15px;
+}
+.price{
+    text-align: center;
+    margin:30px 0;
+}
+.primary-btn{
+    background-color:var(--third-color);
+    color:white;
+    font-weight: 600px;
+    font-family:var(--secondary-font-family);
+    padding:20px 89.9px;
+    border:none;
 }
 
 @media screen and (max-width:576px) {
+
     .navbar ul {
         display: none;
     }
-
+     
     .logo-item {
         padding: 0 15px;
     }
@@ -171,4 +209,17 @@ main {
     .banner-para {
         margin-top: 20px;
     }
+
+    .our-plants{
+        align-items: center;
+    }
+    .beauty{
+        padding:0 15px;
+    }
+    .total-cart{
+        grid-template-columns: repeat(2,1fr);
+         padding:0 15px ;   
+        gap:10px;
+    }
+
 }
