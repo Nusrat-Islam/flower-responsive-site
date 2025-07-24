@@ -154,6 +154,9 @@ main {
     max-width: 270px;
     margin-top:49px;
     gap:20px;
+    display:flex;
+    flex-direction: column;
+    
 }
 
 .lilly{
@@ -179,7 +182,7 @@ main {
     color:white;
     font-weight: 600px;
     font-family:var(--secondary-font-family);
-    padding:20px 89.9px;
+    padding:19px 0;
     border:none;
 }
 
