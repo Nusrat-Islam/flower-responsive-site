@@ -4,67 +4,171 @@
 
 /*---some common css style---*/
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     max-width: 1280px;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
-ul li{
+ul li {
     list-style: none;
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
+}
+
+:root {
+    --primary-color: (black);
+    --secondary-color: rgba(0, 0, 0, 0.5);
+    --third-color: rgba(233, 90, 8, 1);
+    --primary-font-family: Noto-Serif;
+    --secondary-font-family: Inter;
 }
 
 /*---navbar item css---*/
 
-.nav-banner-items{
+.nav-banner-items {
     max-width: 1140px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.logo{
+
+.logo {
     padding-top: 20px;
 }
-.logo-item{
+
+.logo-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-items{
-    display:flex;
-    gap:48px;
-}
-.navbar ul{
-    display:flex;
-    gap:48px;
-    padding-top:35px;
-}
-.cart{
-    gap:10px;
-    padding-top: 35px;
-    display:flex;
+
+.nav-items {
+    display: flex;
+    gap: 48px;
 }
 
-#home{
-    color:#252432;
+.navbar ul {
+    display: flex;
+    gap: 48px;
+    padding-top: 35px;
+    font-family: var(--secondary-font-family);
 }
-.Two-item{
-    color:#8987A1;
+
+.cart-icon {
+    gap: 10px;
+    padding-top: 35px;
+    display: flex;
+}
+
+.dollar {
+    font-family: var(--secondary-font-family);
+}
+
+#home {
+    color: #252432;
+}
+
+.Two-item {
+    color: #8987A1;
+}
+
+/*-----Banner part css-----*/
+.full-banner {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.flowers-details {
+    max-width: 550px;
+    margin-top: 270px;
+}
+
+.banner-title {
+    font-weight: 700px;
+    font-family: var(--primary-font-family);
+    color: var(--primary-color);
+    font-size: 4rem;
+}
+
+.fresh {
+    color: var(--third-color);
+}
+
+.banner-para {
+    font-family: var(--secondary-font-family);
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+}
+
+.flower-img {
+    margin-top: 170px;
+}
+
+/*-----Our Plants Css start-----*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.our-plants {
+    justify-items: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.plant {
+    font-weight: 700px;
+    font-family: var(--primary-font-family);
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+.our {
+    color: var(--third-color);
+}
+
+.beauty {
+    font-family: var(--secondary-font-family);
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+    max-width: 888px;
+    text-align: center;
 }
 
 @media screen and (max-width:576px) {
-    .navbar ul{
-        display:none;
+    .navbar ul {
+        display: none;
     }
-    .nav-banner-items{
-        padding:0 10px;
+
+    .logo-item {
+        padding: 0 15px;
+    }
+
+    .flower-img {
+        width: 100%;
+    }
+
+    .full-banner {
+        flex-direction: column-reverse;
+    }
+
+    .flowers-details {
+        margin-top: 60px;
+        margin-left: 15px;
+    }
+
+    .banner-para {
+        margin-top: 20px;
     }
 }
