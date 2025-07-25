@@ -334,8 +334,42 @@ main {
     padding-left:15px;
 }
 
+/*-----last section of footer part----*/
+.all-items{
+   display:flex;
+   justify-content: space-around;
+   margin-top:110px;
+   
+}
 
-
+.last-para{
+    font-family: inter;
+    color:var(--secondary-color);
+    font-size:1.37rem;
+   max-width:358px;
+}
+.home-section ul li a {
+    text-decoration:none;
+     color:rgba(107, 114, 128, 1);
+}
+.home-section ul li{
+    list-style:none;
+    margin-bottom:32px;
+}
+.features-section ul li a{
+    text-decoration:none;
+     color:rgba(107, 114, 128, 1);
+     font-family: inter;
+}
+.features-section ul li {
+      list-style:none;
+    margin-bottom:32px;
+   
+}
+.social-icon{
+  display:flex;
+  gap:45px;  
+}
 
 
 
@@ -428,5 +462,16 @@ main {
     .bunch{
         text-align:center;
         font-size: 1.7rem;
+    }
+    .all-items{
+        flex-direction: column;
+        padding-left:15px;
+
+    }
+    .features-section ul li a,.home-section ul li a{
+      font-size:1.3rem;
+    }
+    .home-section{
+        margin-top:20px;
     }
 }
