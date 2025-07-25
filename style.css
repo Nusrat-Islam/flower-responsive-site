@@ -425,6 +425,10 @@ main {
        font-size: 1.8rem; 
        max-width: 100%;
     }
+    .image-container{
+        justify-content: center;
+        align-items: center;
+    }
 
     .beauty,
     .store,
