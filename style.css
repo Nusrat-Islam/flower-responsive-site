@@ -207,9 +207,10 @@ main {
 .flower-title {
     font-family: noto-serif;
     font-weight: 700px;
-    font-size: 3.1rem;
+    font-size: 3.12rem;
     color: var(--primary-color);
     margin-top: 38px;
+   
 }
 
 .flower-description {
@@ -234,13 +235,16 @@ main {
 }
 
 .image-container {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+     display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
 }
 
 .image-text {
     position: absolute;
-    transform: translateY(-130px);
-    padding-left: 89px;
     color: white;
     font-family: noto-serif;
     font-size: 1.2rem;
@@ -266,19 +270,25 @@ main {
 
 .image-text-two {
     position: absolute;
-    transform: translateY(-230px);
-    padding-left: 200px;
+  text-align: center;
     color: white;
     font-family: noto-serif;
-    font-size: 3.1rem;
+    font-size: 2rem;
     font-weight: 700px;
 
+}
+.last-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
 }
 
 .image-text-two a {
     font-family: noto-serif;
     color: white;
-    padding-left: 80px;
+    
     font-weight: 700px;
 
 }
@@ -312,11 +322,14 @@ main {
 
 .secondary-btn {
     background-color: var(--third-color);
-    font-weight: 600px;
+    
     width:30%;
     color:white;
-    font-weight: 600px;
-    padding:19px 15px;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border:none;
     font-size: 1rem;
 
@@ -395,13 +408,22 @@ main {
         margin-top: 60px;
         margin-left: 15px;
     }
-
+    .banner-title{
+        font-size:2.5rem;
+    }
     .banner-para {
         margin-top: 20px;
     }
 
     .our-plants {
         align-items: center;
+    }
+    .responsive-break{
+        display:none;
+    }
+    .flower-title{
+       font-size: 1.8rem; 
+       max-width: 100%;
     }
 
     .beauty,
@@ -445,23 +467,16 @@ main {
         padding: 0 15px;
     }
 
-    .image-text {
-        margin-left: 90px;
-    }
-
     .image-text-two {
-        padding-left: 130px;
-        font-size: 2.4rem;
-        padding-top: 70px;
+        font-size: 1.5rem;
 
-    }
-
-    .image-text-two a {
-        padding-right: 60px;
     }
     .bunch{
         text-align:center;
         font-size: 1.7rem;
+    }
+    .secondary-btn{
+        font-size: 0.8rem;
     }
     .all-items{
         flex-direction: column;
@@ -474,4 +489,5 @@ main {
     .home-section{
         margin-top:20px;
     }
+
 }
