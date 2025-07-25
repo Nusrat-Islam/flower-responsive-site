@@ -96,6 +96,7 @@ img {
     font-family: noto-serif;
     color: var(--primary-color);
     font-size: 4rem;
+    margin-bottom: 15px;
 }
 
 .fresh {
